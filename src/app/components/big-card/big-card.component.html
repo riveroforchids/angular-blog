@@ -1,20 +1,19 @@
 <div class="container__big-card">
     <div class="photo__big-card">
         <img 
-        src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" 
-        alt="placeholder image"
+        src="{{ photoCover }}" 
+        alt=""
         >
     </div>
 
     <div class="title__big-card">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     
     <div class="description__big-card">
         <p>
             <a href="#">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu purus mi. 
-            Phasellus imperdiet faucibus neque, consectetur vehicula mi varius vitae.
+                {{ cardDescription }}
             </a>
         </p>
     </div>

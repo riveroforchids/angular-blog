@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu-title',
   templateUrl: './menu-title.component.html',
-  styleUrl: './menu-title.component.css'
+  styleUrls: [
+  './menu-title.component.css',
+  './menu-title.responsive.component.css']
 })
-export class MenuTitleComponent {
+export class MenuTitleComponent implements OnInit {
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 }
